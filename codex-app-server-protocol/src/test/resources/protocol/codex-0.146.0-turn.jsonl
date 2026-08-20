@@ -1,0 +1,13 @@
+{"method":"thread/started","params":{"thread":{"id":"thread-1"}}}
+{"method":"turn/started","params":{"threadId":"thread-1","turn":{"id":"turn-1"}}}
+{"method":"item/started","params":{"thread":{"id":"thread-1"},"turn":{"id":"turn-1"},"item":{"id":"item-1","type":"agentMessage"}}}
+{"method":"item/agentMessage/delta","params":{"threadId":"thread-1","turnId":"turn-1","itemId":"item-1","delta":"Hello"}}
+{"method":"item/reasoning/textDelta","params":{"threadId":"thread-1","turnId":"turn-1","itemId":"item-2","delta":"Thinking"}}
+{"method":"item/commandExecution/outputDelta","params":{"threadId":"thread-1","turnId":"turn-1","itemId":"item-3","delta":"pwd\n"}}
+{"method":"item/fileChange/patchUpdated","params":{"threadId":"thread-1","turnId":"turn-1","itemId":"item-4","changes":[]}}
+{"method":"item/mcpToolCall/progress","params":{"threadId":"thread-1","turnId":"turn-1","itemId":"item-5","message":"Calling MCP"}}
+{"method":"turn/plan/updated","params":{"threadId":"thread-1","turnId":"turn-1","plan":[]}}
+{"method":"thread/tokenUsage/updated","params":{"threadId":"thread-1","tokenUsage":{"total":42}}}
+{"method":"warning","params":{"threadId":"thread-1","message":"watch out"}}
+{"method":"error","params":{"threadId":"thread-1","turnId":"turn-1","error":{"message":"failed"},"willRetry":false}}
+{"method":"future/notification","params":{"threadId":"thread-1","futureParam":true},"futureEnvelopeField":true}
