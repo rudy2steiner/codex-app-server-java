@@ -1,5 +1,7 @@
 # codex-app-server-java
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 An independent, framework-neutral Java client for the [Codex app-server](https://github.com/openai/codex/tree/main/codex-rs/app-server) protocol.
 
 > [!IMPORTANT]
@@ -248,12 +250,6 @@ The planned Java baseline is Java 17 so the SDK can use records, sealed types, a
 - [Official Codex Python SDK](https://github.com/openai/codex/tree/main/sdk/python)
 - [Official Codex TypeScript SDK](https://github.com/openai/codex/tree/main/sdk/typescript)
 - [Official OpenAI Java library](https://github.com/openai/openai-java)
-
-## 中文说明
-
-本项目计划提供一个独立、无框架依赖的 Codex app-server Java SDK，覆盖进程管理、JSONL/stdio 双向通信、线程与轮次、流式事件、审批、用户输入以及协议版本兼容。
-
-项目目前处于设计和初始化阶段，尚未发布可用版本。LoopAide 将作为第一个真实集成项目验证 SDK，但 SDK 本身不会依赖 LoopAide。项目会先独立开源和发布，在获得 Codex 维护者邀请后再考虑向上游提交代码。
 
 ## License
 
